@@ -18,7 +18,6 @@ Hypothesis Function:
 ![hypothesis](https://user-images.githubusercontent.com/41659296/52536847-9b12f580-2d2d-11e9-8eb6-71ba8120d072.PNG)
 
 
-
 ###
 Vectorized Cost Function:
 ![vectorized cost function](https://user-images.githubusercontent.com/41659296/52536848-a23a0380-2d2d-11e9-9969-f87db96ff28c.PNG)
