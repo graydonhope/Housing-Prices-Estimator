@@ -10,9 +10,14 @@ Linear Regression Cost Function Forumla:
 Gradient Descent (updating all theta values simultaneously):
 ![gradient descent](https://user-images.githubusercontent.com/41659296/52536833-76b71900-2d2d-11e9-922c-b0de354b3e46.PNG)
 
+
 ###
 Hypothesis Function:
+
+
 ![hypothesis](https://user-images.githubusercontent.com/41659296/52536847-9b12f580-2d2d-11e9-8eb6-71ba8120d072.PNG)
+
+
 
 ###
 Vectorized Cost Function:
