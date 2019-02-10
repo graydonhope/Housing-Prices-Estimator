@@ -3,7 +3,6 @@ function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
 %   theta = GRADIENTDESCENT(X, y, theta, alpha, num_iters) updates theta by 
 %   taking num_iters gradient steps with learning rate alpha
 
-% Initialize some useful values
 m = length(y); % number of training examples
 J_history = zeros(num_iters, 1);
 rowsOfTheta = rows(theta);
@@ -11,14 +10,6 @@ columnsOfTheta = columns(theta);
 updatedThetaMatrix = nan(rowsOfTheta, columnsOfTheta); % Used as a matrix to store updated theta values
                                                        % so that each theta value gets updated simultaneously.
 for iter = 1:num_iters
-
-    % ====================== YOUR CODE HERE ======================
-    % Instructions: Perform a single gradient step on the parameter vector
-    %               theta. 
-    %
-    % Hint: While debugging, it can be useful to print out the values
-    %       of the cost function (computeCost) and gradient here.
-    %
     
     % Keep solution generic. You don't know how many theta values you will have.
     for j = 1:rowsOfTheta
@@ -35,8 +26,6 @@ for iter = 1:num_iters
     endfor
     
     theta = updatedThetaMatrix;
-
-    % ============================================================
 
     % Save the cost J in every iteration    
     J_history(iter) = computeCost(X, y, theta);
