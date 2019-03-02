@@ -2,6 +2,9 @@
 This program uses linear regression to calculate housing prices based on the training parameters given.
 Involves: plotting data, linear regression with one variable, gradient descent / cost function, feature normalization, and linear regression with multiple variables.
 
+
+### Some theory about the project...
+
 ###
 Linear Regression Cost Function Forumla:
 ![cost function](https://user-images.githubusercontent.com/41659296/52536809-525b3c80-2d2d-11e9-99e4-f830b0bf94ff.PNG)
